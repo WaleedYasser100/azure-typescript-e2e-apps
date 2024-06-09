@@ -16,6 +16,13 @@
 	"features": {
 		"ghcr.io/jsburckhardt/devcontainer-features/gitleaks:1": {},
 		"ghcr.io/devcontainers/features/azure-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"christian-kohler.npm-intellisense"
+			]
+		}
 	}
 
 	// Configure tool-specific properties.
